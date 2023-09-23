@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+#imageInput {
+    display: none;
+}
+
+#chooseImageButton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+#chooseImageButton:hover {
+    background-color: #2980b9;
+}
+#imagePreview {
+    display: none;
+    margin-bottom: 10px;
+}
+
+#uploadedImage {
+    max-width: 100%;
+    max-height: 200px;
+}
+#checkButton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#checkButton:hover {
+    background-color: #2980b9;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
